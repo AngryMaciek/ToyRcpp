@@ -1,5 +1,5 @@
 # Rcpp interface for statistical computing
-*Maciej Bak*
+*Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
 This is a very small repository that presents the libraries needed for efficient statistical computing in R interfacing to C++. Functions presented are useful to build statistical models based on likelihood and optimize their parameters.  
