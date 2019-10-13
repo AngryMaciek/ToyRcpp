@@ -36,7 +36,7 @@ This repository contains six files:
 These libraries and functions should be enough to implement complex Bayesian models, fit the parameters efficiently and optimize the runtime on big datasets. Functions' logic and sygnatures are described within the files above.
 
 ## License
-GNU General Public License 
+GNU General Public License v3.0
 
 
 [link1]: <http://adv-r.had.co.nz/Rcpp.html>

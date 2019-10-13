@@ -1,3 +1,7 @@
+// Maciej Bak
+// Swiss Institute of Bioinformatics
+// 4.06.2019
+
 #include <Rcpp.h>
 #include "modified_optim.c"
 extern "C" {
