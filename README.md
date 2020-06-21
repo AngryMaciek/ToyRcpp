@@ -1,4 +1,4 @@
-# Rcpp interface for statistical computing
+# ToyRcpp
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
