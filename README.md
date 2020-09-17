@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/AngryMaciek/ToyRcpp.svg?branch=master)](https://travis-ci.org/AngryMaciek/ToyRcpp)
+[![GitHub license](https://img.shields.io/github/license/AngryMaciek/ToyRcpp)](https://github.com/AngryMaciek/ToyRcpp/blob/master/LICENSE)
+
 # ToyRcpp
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
@@ -22,7 +25,7 @@ $ R
 ```
 
 ## Repository
-This repository contains six files:
+This repository contains seven files:
 
 | File | Description |
 | ------ | ------ |
@@ -32,6 +35,7 @@ This repository contains six files:
 | zeroin.c | C routine for root finding of an univariate function |
 | modified_optim.c | modified version of the C file with a method to minimize a given multivariate function |
 | LICENSE | The GNU General Public License v3.0 |
+| .travis.yml | YAML configuration for the Travis CI |
 
 These libraries and functions should be enough to implement complex Bayesian models, fit the parameters efficiently and optimize the runtime on big datasets. Functions' logic and sygnatures are described within the files above.
 
