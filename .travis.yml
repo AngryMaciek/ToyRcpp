@@ -1,0 +1,10 @@
+language: bash
+
+os:
+  - linux
+  - osx
+
+#install:
+
+script:
+  - R --version
