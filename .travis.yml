@@ -10,5 +10,8 @@ install:
   - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew update; fi
   - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install r; fi
 
+before_script:
+  - R -e "install.packages(c("Rcpp", "numDeriv", "tictoc"))"
+
 script:
   - R --version
