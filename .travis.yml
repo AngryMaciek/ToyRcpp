@@ -4,7 +4,11 @@ os:
   - linux
   - osx
 
-#install:
+install:
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt update; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt install r-base-core; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew update; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install r; fi
 
 script:
   - R --version
